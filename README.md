@@ -1,20 +1,20 @@
-# Автоматическая загрузка и обработка аудио на основе `yt-dlp`
+# Automatic Audio Download and Processing with `yt-dlp`
 
-Этот скрипт предоставляет простой способ автоматической загрузки аудио албомов из YoutubeMusic с использованием утилиты `yt-dlp`. Он также добавляет обложки к загруженным аудиофайлам с помощью утилиты `sacad`. Для взаимодействия с пользователем и отображения прогресса скрипт использует графическую оболочку Zenity.
+This script provides a simple way to automatically download audio albums from Youtube Music using the `yt-dlp` utility. It also adds covers to the downloaded audio files using the `sacad` utility. To interact with the user and display progress, the script uses the Zenity graphical shell.
 
-## Использование:
+## Usage:
 
-1. Сохраните скрипт в исполняемый файл, например, `audio_downloader.sh`.
-2. Запустите скрипт, выполните команду: `sh audio_downloader.sh`.
-3. Введите путь в текстовое поле. (Скрипт создаст указанный путь)
+1. Save the script to an executable file, for example, `audio_downloader.sh`.
+2. Run the script by executing the command: `sh audio_downloader.sh`.
+3. Enter the desired path in the text field. (The script will create the specified path)
    ![pic](https://storage.yandexcloud.net/uuuuuno/pic/1.png)
-4. Следующее диалоговое окно попросит ввести ссылку для загрузки аудио. (Похожую на: `https://music.youtube.com/playlist?list=OLAK5uy_nbXJ9trarUJQEfFJx_LJzLT6N2JTyNQyw`)
+4. The next dialog will prompt you to enter the download link for the audio. (It should look like: `https://music.youtube.com/playlist?list=OLAK5uy_nbXJ9trarUJQEfFJx_LJzLT6N2JTyNQyw`)
    ![pic](https://storage.yandexcloud.net/uuuuuno/pic/2.png)
-5. Дождитесь загрузки и обработки аудио.
+5. Wait for the audio to be downloaded and processed.
    ![pic](https://storage.yandexcloud.net/uuuuuno/pic/3.png)
 
-## Зависимости:
+## Dependencies:
 
-- Zenity: графическая оболочка для диалоговых окон.
-- yt-dlp: командная строка для загрузки аудио с различных платформ.
-- sacad: утилита для добавления обложек к аудиофайлам.
+- Zenity: Graphical shell for dialog windows.
+- yt-dlp: Command-line utility for downloading audio from various platforms.
+- sacad: Utility for adding covers to audio files.
